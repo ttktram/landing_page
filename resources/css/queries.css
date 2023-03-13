@@ -1,0 +1,217 @@
+/* Big table to 1200px */
+@media only screen and (max-width:1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .heading-main-box {
+        transform: translate(-30%, -50%);
+    }
+
+    form {
+        margin-left: 30%;
+    }
+}
+
+/* Small tablet to Big table from 768px to 1023px */
+@media only screen and (max-width:1023px) {
+    .logo {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .main-nav {
+        margin-right: 15px;
+        margin-top: 40px;
+    }
+
+    .main-nav li {
+        margin-right: 10px;
+    }
+
+    .heading-main-box {
+        transform: translate(-20%, -50%);
+    }
+
+    .product-box {
+        width: 95%;
+    }
+
+    .product-box .btn {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .product-box ul li {
+        margin-left: 5%;
+    }
+
+    .product-box .small-icon {
+        margin-right: 5px;
+    }
+
+    .information .small-icon {
+        display: block;
+    }
+
+    .information li {
+        font-size: 14px;
+    }
+
+    .social-icons li {
+        margin-right: 10px;
+    }
+}
+
+/* Small phone to small tablet */
+@media only screen and (max-width:767px) {
+    .col {
+        width: 100%;
+    }
+
+    .menu-btn {
+        display: block !important;
+        position: relative;
+        cursor: pointer;
+        padding: 3px 5px;
+    }
+
+    .menu-btn:hover{
+        background-color: #ccc;
+        color: #1b4c77;
+    }
+
+    .main-nav {
+        background-color: #1b4c77;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        right: 0;
+        top: 35px;
+        display: none;
+    }
+
+    .main-nav li {
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .main-nav li a {
+        display: block;
+    }
+
+    .main-nav.active {
+        display: block;
+    }
+
+    .logo {
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 200%;
+        word-spacing: 2px;
+    }
+
+    .heading-main-box {
+        transform: translate(-23%, -50%);
+    }
+
+    .heading-main-box .btn {
+        width: 15%;
+    }
+
+    .about-section .p-long {
+        font-size: 15px;
+    }
+
+    .about-picture {
+        text-align: center;
+    }
+
+    .about-picture img {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+    .picture-title {
+        font-size: 20px;
+    }
+
+    .product-box {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .product-box ul li {
+        margin-left: 20%;
+    }
+
+    .products-section {
+        height: 1300px;
+    }
+
+    .testimonials-section {
+        height: 800px;
+    }
+
+    .testimonials-section .col {
+        margin-bottom: 40px;
+    }
+
+    figcaption {
+        visibility: hidden;
+    }
+
+    form {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    label {
+        margin-left: 35%;
+    }
+
+    .information {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .information li {
+        font-size: 20px;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .social-icons li {
+        font-size: 50px;
+    }
+}
+
+/* Small phone from 0 to 480px */
+@media only screen and (max-width:480px) {
+    html {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    .logo {
+        width: 220px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+    .heading-main-box {
+        transform: translate(-10%, -50%);
+    }
+
+    .heading-main-box .btn {
+        width: 13%;
+    }
+}
